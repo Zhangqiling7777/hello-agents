@@ -410,6 +410,7 @@ class CodebaseMaintainer:
                 "duration_seconds": duration
             },
             "activity": {
+                "tool_calls": self.stats["tool_calls"],
                 "commands_executed": self.stats["commands_executed"],
                 "notes_created": self.stats["notes_created"],
                 "issues_found": self.stats["issues_found"]
